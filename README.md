@@ -1,17 +1,4 @@
-# Windows 10 Developer Machine Setup
-
-This is the script for Edi Wang to setup a new dev box. You can modify the scripts to fit your own requirements.
-
-## Prerequisites
-
-- A clean install of Windows 10 Pro v2004 en-us.
-- If you are in China: a stable "Internet" connection.
-
-> This script has not been tested on other version of Windows, please be careful if you are using it on other Windows versions.
-
-## How to Use
-
-Download latest script here: https://raw.githubusercontent.com/EdiWang/EnvSetup/master/Install.ps1
+# Windows 10 Machine Setup
 
 ### Optional
 
@@ -24,13 +11,6 @@ Import "Add_PS1_Run_as_administrator.reg" to your registry to enable context men
 - Add 'This PC' Desktop Icon (need refresh desktop)
 - Enable Developer Mode
 - Enable Remote Desktop
-- Install IIS
-  - ASP.NET 4.8
-  - Dynamic and Static Compression
-  - Basic Authentication
-  - Windows Authentication
-  - Server Side Includes
-  - WebSockets
 - Install Chocolate for Windows
     - 7-Zip
     - Microsoft Edge (Chromium)
